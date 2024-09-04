@@ -18,10 +18,19 @@ section{
     flex-direction: column-reverse;
 }
 
+.div-img{
+    max-width: 792px;
+}
+
+.div-img img{
+    width: 100%;
+}
+
 ul{
     display: flex;
     list-style: none;
     margin-bottom: 10px;
+    flex-wrap: wrap;
 }
 
 ul li{
